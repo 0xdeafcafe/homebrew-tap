@@ -1,9 +1,9 @@
-# Template: .github/workflows/release.yml replaces 0.1.0 and 4eb99cc986cb4c54596a48df59a7a1f9af9eb82e0e241ae01977e9c3e0ca4b9c and
+# Template: .github/workflows/release.yml replaces 0.2.0 and 89c2b8b117048c49a4d2d93cb76e0a8e2393d68b22b0c14bd64c9976f0fdacea and
 # commits the result to Casks/terminal-decline.rb in 0xdeafcafe/homebrew-tap
 # (with a cask_renames.json entry from the old cask name, decline).
 cask "terminal-decline" do
-  version "0.1.0"
-  sha256 "4eb99cc986cb4c54596a48df59a7a1f9af9eb82e0e241ae01977e9c3e0ca4b9c"
+  version "0.2.0"
+  sha256 "89c2b8b117048c49a4d2d93cb76e0a8e2393d68b22b0c14bd64c9976f0fdacea"
 
   url "https://github.com/0xdeafcafe/terminal-decline/releases/download/v#{version}/Terminal-Decline-#{version}-macos-arm64.zip"
   name "Terminal Decline"
