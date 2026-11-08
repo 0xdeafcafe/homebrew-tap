@@ -1,8 +1,9 @@
 cask "yap" do
-  version "0.4.1"
-  sha256 "3f2bd37d228996c9de7fca11a7d4d7e62f2844301d287e55c0fb8463e3e1375d"
+  # Always the latest release: yap updates itself with Sparkle, so the cask never needs bumping.
+  version :latest
+  sha256 :no_check
 
-  url "https://github.com/0xdeafcafe/yap/releases/download/v#{version}/Yap.zip"
+  url "https://github.com/0xdeafcafe/yap/releases/latest/download/Yap.zip"
   name "Yap"
   desc "Hold fn to dictate, using the built-in on-device speech model"
   homepage "https://github.com/0xdeafcafe/yap"
