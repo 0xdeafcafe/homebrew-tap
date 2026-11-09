@@ -1,8 +1,8 @@
-# Template: on a v* tag, .github/workflows/build.yml fills in 0.5.1 and d5a8d9fdc481fc6d1fedd88e3d69e5b90eb1fabdeb7bb08b472ee4e8beaa3938
+# Template: on a v* tag, .github/workflows/build.yml fills in 0.5.2 and 782f9623f56f98acf10bb856b3352097f88aa92cd0a3e02d5160a01cb5f7ee44
 # and commits the result to Casks/yap.rb in 0xdeafcafe/homebrew-tap.
 cask "yap" do
-  version "0.5.1"
-  sha256 "d5a8d9fdc481fc6d1fedd88e3d69e5b90eb1fabdeb7bb08b472ee4e8beaa3938"
+  version "0.5.2"
+  sha256 "782f9623f56f98acf10bb856b3352097f88aa92cd0a3e02d5160a01cb5f7ee44"
 
   url "https://github.com/0xdeafcafe/yap/releases/download/v#{version}/Yap.zip"
   name "Yap"
