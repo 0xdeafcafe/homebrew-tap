@@ -8,7 +8,7 @@
 class Rush < Formula
   desc "Terminal app to run every coding agent you've got"
   homepage "https://github.com/0xdeafcafe/rush"
-  version "0.1.0-beta.18"
+  version "0.1.0-beta.19"
   license "MIT"
 
   # Apple silicon only.
@@ -16,7 +16,7 @@ class Rush < Formula
   depends_on :macos
 
   url "https://github.com/0xdeafcafe/rush/releases/download/v#{version}/rush-#{version}-aarch64-apple-darwin.tar.gz"
-  sha256 "038ebd8f6cbdaeb883cdefe6a430c130927dccfd63f0c6ca18de0174b0892c24"
+  sha256 "b3653e726d0ca6fb86d46c8adf7a3f5c5afaf79d66a32fa93600d6f0a175c7d5"
 
   def install
     bin.install "rush"
